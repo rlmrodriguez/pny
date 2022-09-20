@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="./script.js"></script>
+    <title>PNY</title>
+  </head>
+
+  <body>
+
+    <!-- ==================== -->
+    <!--         Header       -->
+    <!-- ==================== -->
+
+    <header>
+      <nav class="nav">
+        <div class="container">
+          <div class="nav__logo">
+            <span>PNY</span>
+          </div>
+          <ul id="navMenu" class="nav__menu-list">
+            <li class="nav__menu-item"><a href="#hero">Home</a></li>
+            <li class="nav__menu-item"><a href="#about">About</a></li>
+            <li class="nav__menu-item"><a href="#features">Features</a></li>
+            <li class="nav__menu-item"><a href="#services">Services</a></li>
+            <li class="nav__menu-item"><a href="#testimonials">Testimonials</a></li>
+            <li class="nav__menu-item"><a href="#contact">Contact</a></li>
+          </ul>
+          <div id="navBtn">
+            <i id="openBtn" class="fa-solid fa-bars"></i>
+            <i id="closeBtn" class="fa-solid fa-xmark hide"></i>
+          </div>
+        </div>
+      </nav>
+
+      <section id="hero" class="hero">
+        <div class="container">
+          <div class="hero__content-left">
+            <span>MAKE MONEY</span>
+            <h1>Grow Your Money Like Never Before</h1>
+            <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum repellendus corporis, consectetur qui
+              eligendi itaque.
+            </h4>
+            <button class="btn-black">GET STARTED</button>
+          </div>
+          <div class="hero__content-right">
+            <img src="./assets/images/header.svg" alt="" width="600px" aria-hidden="true" decoding="async">
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <!-- ==================== -->
+      <!--        Services      -->
+      <!-- ==================== -->
+
+      <section id="services" class="services">
+        <div class="container">
+          <div class="services__cards">
+            <!-- Card 1 -->
+            <div class="services__card">
+              <span><i class="fa-solid fa-key one"></i></span>
+              <h2>Strong Security</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatibus consequatur, atque excepturi
+                beatae in.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="services__card">
+              <span><i class="green fa-solid fa-briefcase"></i></span>
+              <h2>Creative Solutions</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut qui perferendis molestiae incidunt nobis
+                architecto.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="services__card">
+              <span><i class="orange fa-solid fa-rocket"></i></span>
+              <h2>High Returns</h2>
+              <p>Lorem ipsum dolor sit amet consectetur elit. Iure provident possimus maiores at delectus
+                fuga.</p>
+            </div>
+          </div>
+          <span class="line"></span>
+          <div class="services__content">
+            <div class="services__left">
+              <img src="./assets/images/services.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            </div>
+            <div class="services__right">
+              <span>WE PROVIDE</span>
+              <h2>Exclusive Services</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid?</p>
+              <button class="btn-black">LEARN MORE</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== -->
+      <!--        Features      -->
+      <!-- ==================== -->
+
+      <section id="features" class="provide-services">
+        <div class="container">
+          <div class="provide-services__text">
+            <span>OUR CALLING</span>
+            <h2>Let's Grow Your Money</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id commodi repellendus praesentium deleniti
+              ullam
+              perspiciatis!</p>
+          </div>
+          <div class="provide-services__cards">
+            <div class="provide-services__card active">
+              <span><i class="fa-solid fa-hourglass-start"></i></span>
+              <h2>Asset Allocation</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga voluptas hic eaque consequatur? Eaque.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+            <div class="provide-services__card">
+              <span><i class="fa-solid fa-file-invoice-dollar"></i></span>
+              <h2>Excellent Returns</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga voluptas hic eaque consequatur? Eaque.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+            <div class="provide-services__card">
+              <span><i class="fa-solid fa-network-wired"></i></span>
+              <h2>Diversification</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga voluptas hic eaque consequatur? Eaque.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+            <div class="provide-services__card">
+              <span><i class="fa-solid fa-chart-line"></i></span>
+              <h2>Investment Strategy</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga voluptas hic eaque consequatur? Eaque.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+          <button class="btn-black">ALL SERVICES</button>
+        </div>
+      </section>
+
+      <!-- ==================== -->
+      <!--         ABOUT        -->
+      <!-- ==================== -->
+
+      <section id="about" class="about">
+        <div class="container">
+          <div class="about__content">
+            <span>ABOUT US</span>
+            <h2>Giving Future To Your Investment</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium vel eveniet quasi!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dignissimos ad quam tempora doloremque
+              totam nulla iure ipsum animi cumque!</p>
+          </div>
+          <div class="about__img">
+            <img src="./assets/images/about.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== -->
+      <!--        FIGURES       -->
+      <!-- ==================== -->
+
+      <section class="figures">
+        <div class="container">
+          <div class="figures__wrapper">
+            <div class="figures__item">
+              <h2>100%</h2>
+              <h3>Positive Feedback</h3>
+            </div>
+            <div class="figures__item">
+              <h2>73k+</h2>
+              <h3>Loyal Followers</h3>
+            </div>
+            <div class="figures__item">
+              <h2>3k+</h2>
+              <h3>Clients</h3>
+            </div>
+            <div class="figures__item">
+              <h2>150%</h2>
+              <h3>Annual ROI</h3>
+            </div>
+          </div>
+          <span></span>
+        </div>
+      </section>
+
+      <!-- ==================== -->
+      <!--         WORK         -->
+      <!-- ==================== -->
+
+      <section class="work">
+        <div class="container">
+          <div class="work__left">
+            <span>HOW WE WORK</span>
+            <h2>Check Our Work Process</h2>
+            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A facere cumque illo.</h3>
+            <button class="btn-black">CONTACT US</button>
+          </div>
+          <div class="work__right">
+            <div class="work__right-item">
+              <div class="top">
+                <h3>1. Exploring</h3>
+                <i id="chevron" class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div id="workText" class="bottom">
+                <span></span>
+                <p class="work__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nesciunt esse,
+                  quia
+                  perferendis ipsa accusantium.</p>
+              </div>
+            </div>
+            <div class="work__right-item">
+              <div class="top">
+                <h3>2. Designing</h3>
+                <i id="chevron" class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div id="workText" class="bottom ">
+                <span></span>
+                <p class="work__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nesciunt esse,
+                  quia
+                  perferendis ipsa accusantium.</p>
+              </div>
+            </div>
+            <div class="work__right-item">
+              <div class="top">
+                <h3>3. Developing</h3>
+                <i id="chevron" class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div id="workText" class="bottom">
+                <span></span>
+                <p class="work__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nesciunt esse,
+                  quia
+                  perferendis ipsa accusantium.</p>
+              </div>
+            </div>
+            <div class="work__right-item">
+              <div class="top">
+                <h3>4. Supporting</h3>
+                <i id="chevron" class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div id="workText" class="bottom">
+                <span></span>
+                <p class="work__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                  nesciunt esse,
+                  quia
+                  perferendis ipsa accusantium.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== -->
+      <!--       PORTFOLIO      -->
+      <!-- ==================== -->
+
+      <section id="portfolio" class="portfolio">
+        <div class="container">
+          <span>OUR PORTFOLIO</span>
+          <h2>Trusted By Leading Companies in the Industry</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum cupiditate nesciunt sunt iure repellendus non
+            veritatis fuga beatae quae quas.</p>
+          <div class="portfolio__img">
+            <img id="displayedImg" src="./assets/images/port1.webp" alt="" aria-hidden="true" loading="lazy"
+              decoding="async">
+          </div>
+          <div class="portfolio__img-description">
+            <h3 id="displayedTitle">Expedita Distinctio</h3>
+            <h4 id="displayedText">SEO - February 2021</h4>
+          </div>
+          <span class="line"></span>
+
+          <!-- Swiper -->
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="./assets/images/port1.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+                <h3>Expedita Distinctio</h3>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/port2.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+                <h3>Facilis Est</h3>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/port3.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+                <h3>Nam Libero</h3>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/port4.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+                <h3>Cam Soluta</h3>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/port5.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+                <h3>Nobis Esteon</h3>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+      </section>
+
+      <!-- ==================== -->
+      <!--          CTA         -->
+      <!-- ==================== -->
+
+      <section class="cta">
+        <div class="container">
+          <div class="cta__content">
+            <span>LET'S WORK NOW</span>
+            <h2>Motivate You To Make The Change</h2>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nihil earum blanditiis esse!</h4>
+            <button class="btn-black">CONTACT US</button>
+          </div>
+          <div class="cta__img">
+            <img src="./assets/images/grow.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== -->
+      <!--     TESTIMONIALS     -->
+      <!-- ==================== -->
+
+      <section id="testi" class="testimonials">
+        <div id="testimonials" class="container">
+          <span>TESTIMONIALS</span>
+          <h2>What Our Clients Say</h2>
+          <div class="testimonials__cards">
+            <div class="testimonials__card">
+              <span class="avatar">
+                <img src="./assets/images/customer-1-300.webp" aria-hidden="true" alt="" loading="lazy"
+                  decoding="async">
+              </span>
+              <h3>Jane Doe</h3>
+              <span class="stars">
+                <img src="./assets/images/star-rating.svg" aria-hidden="true" alt="" loading="lazy"
+                  decoding="async"></span>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perspiciatis eius nemo rem.</h4>
+            </div>
+            <div class="testimonials__card">
+              <span class="avatar">
+                <img src="./assets/images/customer-2-300.webp" aria-hidden="true" alt="" loading="lazy"
+                  decoding="async">
+              </span>
+              <h3>John Smith</h3>
+              <span class="stars">
+                <img src="./assets/images/star-rating.svg" aria-hidden="true" alt="" loading="lazy"
+                  decoding="async"></span>
+              <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et eveniet eum quam eos dolorum!</h4>
+            </div>
+            <div class="testimonials__card">
+              <span class="avatar">
+                <img src="./assets/images/customer-3-300.webp" aria-hidden="true" alt="" loading="lazy"
+                  decoding="async">
+              </span>
+              <h3>Juan Dela Cruz</h3>
+              <span class="stars">
+                <img src="./assets/images/star-rating.svg" aria-hidden="true" alt="" loading="lazy"
+                  decoding="async"></span>
+              <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quae. Ut, sit amet totam!</h4>
+            </div>
+          </div>
+
+          <div class="partners">
+            <h3>We work with the best partners</h3>
+            <img src="./assets/images/karlsruherverkehrsverbund.svg" alt="karlsruherverkehrsverbund company logo"
+              class="filter" loading="lazy" decoding="async">
+            <img src="./assets/images/fite.svg" alt="fite company logo" class="filter" loading="lazy" decoding="async">
+            <img src="./assets/images/khronosgroup.svg" alt="khronos group company logo" class="filter" loading="lazy"
+              decoding="async">
+            <img src="./assets/images/arxiv.svg" alt="arxiv company logo" class="filter" loading="lazy"
+              decoding="async">
+          </div>
+          <span class="line"></span>
+        </div>
+      </section>
+
+      <!-- ==================== -->
+      <!--        CONTACT       -->
+      <!-- ==================== -->
+
+      <section class="contact">
+        <div id="contact" class="container">
+          <div class="contact__form">
+            <h2>Get In Touch</h2>
+            <form action="#">
+              <div class="contact__form-div">
+                <input id="name" type="text" placeholder=" ">
+                <label for="name">Name</label>
+              </div>
+              <div class="contact__form-div">
+                <input id="email" type="email" placeholder=" ">
+                <label for="email">Email</label>
+              </div>
+              <div class="contact__form-div">
+                <textarea id="message" name="message" rows="6" placeholder=" "></textarea>
+                <label for="message">Message</label>
+              </div>
+              <button class="btn-black">SUBMIT NOW</button>
+            </form>
+          </div>
+          <div class="contact__content">
+            <h2>Contact Us</h2>
+            <h4>Want to get in touch? We'd love to hear from you. Here's how you can reach us.</h4>
+            <div class="contact__content-info">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <span>69 Noel St.,
+                Reston, GA 305</span>
+            </div>
+            <div class="contact__content-info">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+              </div>
+              <span>+1(234)567-89-00</span>
+            </div>
+            <div class="contact__content-info">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <span>hi.pny@info.com</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================== -->
+    <!--        FOOTER        -->
+    <!-- ==================== -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__content-top">
+            <h2>All-in-One Money Solution for Your Business</h2>
+            <div class="footer__content-buttons">
+              <button class="btn-black">CONTACT US</button>
+              <button class="btn-blue">GET STARTED</button>
+            </div>
+          </div>
+          <span class="line"></span>
+          <div class="footer__content-bottom">
+            <div class="footer__sm">
+              <h2>PNY</h2>
+              <h4>Follow us on:</h4>
+              <div class="footer__sm-icons">
+                <span><i class="fa-brands fa-facebook-f"></i>
+                </span>
+                <span><i class="fa-brands fa-instagram"></i></span>
+                <span><i class="fa-brands fa-youtube"></i></span>
+              </div>
+            </div>
+            <ul class="footer__nav">
+              <h3>COMPANY</h3>
+              <li><a href="#about">About</a></li>
+              <li><a href="#">Subscribe</a></li>
+              <li><a href="#">Contributors</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+            <ul class="footer__services">
+              <h3>SERVICE</h3>
+              <li><a href="#">Finance Analytics</a></li>
+              <li><a href="#">Consulting</a></li>
+              <li><a href="#">Audit & Assurance</a></li>
+              <li><a href="#">Tax Advisory</a></li>
+            </ul>
+          </div>
+        </div>
+        <span class="line2"></span>
+        <span class="footer__copyright">Copyright &copy; 2022 RLMR.</span>
+      </div>
+    </footer>
+    <div class="blur"></div>
+  </body>
+
+</html>
